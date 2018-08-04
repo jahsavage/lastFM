@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LastFm Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Enter artist, album or song</string>
+
+
+    <string name="search_by_artist">Search For Artist</string>
+    <string name="search_by_album">Search For Album</string>
+    <string name="search_by_track">Search For Track</string>
+
+</resources>

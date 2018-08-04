@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="skyBlue">#94C3F2</color>
+    <color name="vlightGray">#FBFBFB</color>
+    <color name="lightGray">#F1F1F1</color>
+    <color name="cardViewBg">@color/vlightGray</color>
+    <color name="colorHighlight">@color/skyBlue</color>
+</resources>

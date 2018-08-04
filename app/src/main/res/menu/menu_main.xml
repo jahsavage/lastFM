@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.discoid.testsavlastfm.view.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <group android:id="@+id/search_type_group"
+           android:checkableBehavior="single"
+           android:visible="true" >
+        <item android:id="@+id/menu_search_by_artist"
+              android:title="@string/search_by_artist"
+              app:showAsAction="never"/>
+        <item android:id="@+id/menu_search_by_album"
+              android:title="@string/search_by_album"
+              app:showAsAction="never"/>
+        <item android:id="@+id/menu_search_by_track"
+              android:title="@string/search_by_track"
+              app:showAsAction="never"/>/>
+    </group>
+
+</menu>

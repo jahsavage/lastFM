@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/clResult"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingRight="@dimen/spacer_5"
+              android:orientation="horizontal"
+              android:layout_gravity="center_vertical"
+              android:background="@drawable/card_ripple_highlight">
+
+    <FrameLayout
+        android:id="@+id/flResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/spacer_5"
+        android:layout_marginRight="@dimen/spacer_5">
+    <ImageView
+        android:id="@+id/adapter_result_thumbnail_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        >
+
+    <TextView
+        android:id="@+id/adapter_result_title"
+        style="@style/active_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/adapter_result_type"
+        tools:text="Are We Not Men?"/>
+
+    <TextView
+        android:id="@+id/adapter_result_type"
+        style="@style/active_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        tools:text="release"/>
+
+    <TextView
+        android:id="@+id/adapter_result_info"
+        style="@style/active_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/adapter_result_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        tools:text="1996"/>
+
+    <TextView
+        android:id="@+id/adapter_result_info2"
+        style="@style/active_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/adapter_result_info"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        tools:text="Two Tone records"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

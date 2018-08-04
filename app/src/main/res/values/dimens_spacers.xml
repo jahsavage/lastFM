@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="spacer_2">2dp</dimen>
+    <dimen name="spacer_3">3dp</dimen>
+    <dimen name="spacer_5">5dp</dimen>
+    <dimen name="spacer_6">6dp</dimen>
+    <dimen name="spacer_7">7dp</dimen>
+    <dimen name="spacer_8">8dp</dimen>
+    <dimen name="spacer_10">10dp</dimen>
+    <dimen name="spacer_15">15dp</dimen>
+    <dimen name="spacer_20">20dp</dimen>
+    <dimen name="spacer_26">26dp</dimen>
+    <dimen name="spacer_30">30dp</dimen>
+    <dimen name="spacer_40">40dp</dimen>
+    <dimen name="spacer_80">80dp</dimen>
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="CardView" parent="Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+
+    <style name="TracksCardView" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/spacer_3</item>
+        <item name="android:layout_marginRight">@dimen/spacer_3</item>
+        <item name="cardBackgroundColor">@color/cardViewBg</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardCornerRadius">10dp</item>
+    </style>
+
+    <style name="active_txt">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="active_title_txt" parent="@style/active_txt">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
